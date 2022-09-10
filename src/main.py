@@ -56,7 +56,7 @@ class cleanfiles :
 
 
 if __name__ == "__main__" :
-      org_file = cleanfiles("/mnt/c/Users/ireal/Downloads")
+      org_file = cleanfiles("/mnt/c/Users/ireal/Downloads") # give your directory
       org_file()
       print('Done........ !!!')
             
