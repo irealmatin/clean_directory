@@ -55,8 +55,8 @@ class cleanfiles :
            shutil.move(str(file_path) , str(DEST_DIR))
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" :
       org_file = cleanfiles("/mnt/c/Users/ireal/Downloads")
       org_file()
-      print('Done !!!')
+      print('Done........ !!!')
             
