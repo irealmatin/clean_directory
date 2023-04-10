@@ -7,7 +7,7 @@ from loguru import logger  # for logging
 from src.data import DATA_DIR  # directory containing data files
 from src.utils.io import read_json  # for reading JSON files
 
-
+#========================sructure================================#
 class cleanfiles:
     """
     A class for organizing files in a directory by moving them to different
@@ -67,7 +67,8 @@ class cleanfiles:
             DEST_DIR.mkdir(exist_ok=True)  # create the destination directory if it doesn't exist
             logger.info(f"Moving {file_path} to {DEST_DIR}...")
             shutil.move(str(file_path), str(DEST_DIR))
-
+            
+#==========================init============================================#
 if __name__ == "__main__":
     # Create an instance of the cleanfiles class with the specified directory
     # and call its __call__ method to organize the files in the directory.
